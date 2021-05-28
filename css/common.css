@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html,body{
     height: 100%;
 }
@@ -8,7 +11,73 @@ body{
 /* header */
 .head{
     height: 1.76rem;
-    border-bottom: solid 1px #f7f7f7;
+    border-bottom: solid 1px #999;
+    display: flex;
+    flex-direction: column;
+}
+.head .search{
+    height: 1.04rem;
+    background-color: #c44944;
+    display: flex;
+    justify-content: center;
+    padding: 0.12rem 0;
+}
+.head .search form{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 6.18rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.head .search form i{
+    padding: 0.26rem 0.18rem 0.26rem 0.26rem; 
+    font-size: 0.28rem;
+}
+.head .search form input{
+    border: none;
+    flex: 1;
+    height: 0.8rem;
+    font-size: 0.28rem;
+}
+.head .search div{
+    width: o.68rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.24rem;
+}
+.head .search div i{
+    font-size: 0.46rem;
+}
+.head .search div span{
+    font-size: 0.2rem;
+}
+/* head-list */
+.head .head-list{
+    height: 0.72rem;
+    width: 100%;
+    position: relative;
+}
+.head .head-list .list-con{
+    width: 6.68rem;
+    overflow-x: auto;    
+    padding-left: 0.1rem;
+    float: left;
+}
+.head .head-list .list-con ul{
+    border: solid 1px black;
+    width: 200%;
+    height: 100%;
+}
+.head .head-list .list-con ul li{
+    border: solid 1px red;
+    float: left;
+    padding: 0 0.22rem;
+    line-height: 0.64rem;
+    font-size: 0.28rem;
+}
+.head .head-list .list-icon{
+    float: left;
 }
 /* container */
 .container{

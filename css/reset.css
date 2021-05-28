@@ -1,8 +1,13 @@
 @charset "UTF-8"
-body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{
+html,body,ul,ol,dl,li,dt,dd,p,form,input,h1,h2,h3,h4,h5,h6,fieldset,select,img,textarea,legend{
     margin: 0;
     padding: 0;
 }
+html,body,ul,ol,dl,li,dt,dd,p,form,input,h1,h2,h3,h4,h5,h6,fieldset,select,img,textarea,legend{
+    margin: 0;
+    padding: 0;
+}
+
 ul,li,ol{
     list-style: none;
 }
