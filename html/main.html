@@ -11,6 +11,21 @@
     <link rel="stylesheet" href="../iconfont/iconfont.css">
 </head>
 <body>
-    
+    <!-- header -->
+    <header class="head"></header>
+    <!-- mian  -->
+    <section class="container"></section>
+    <!-- footer  -->
+    <footer class="foot">
+    </footer>
+    <script>
+        window.onload = function(){
+            var html = document.querySelector("html");
+            html.style.fontSize = html.offsetWidth / 750 * 100 + "px";
+            addEventListener("resize",function(){
+                html.style.fontSize = html.offsetWidth / 750 * 100 + "px";
+            },false);
+        }
+    </script> 
 </body>
 </html>
