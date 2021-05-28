@@ -1,0 +1,24 @@
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* header */
+.head{
+    height: 1.76rem;
+    border-bottom: solid 1px #f7f7f7;
+}
+/* container */
+.container{
+    flex: 1;
+    overflow-y: auto;
+}
+/* footer */
+.foot{
+    position: fixed;
+    bottom: 0;
+    height: 0.88rem;
+    border-top: solid 1px #e5e5e5;
+}

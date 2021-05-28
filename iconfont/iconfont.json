@@ -1,0 +1,86 @@
+{
+  "id": "2577070",
+  "name": "iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "238679",
+      "name": "未登录",
+      "font_class": "weidenglu",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "4685721",
+      "name": "搜索",
+      "font_class": "Group-",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "5437653",
+      "name": "对话",
+      "font_class": "duihua",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "6184573",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "12731682",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    },
+    {
+      "icon_id": "14463252",
+      "name": "关闭 (2)",
+      "font_class": "guanbi2",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    },
+    {
+      "icon_id": "14761035",
+      "name": "小火山视频",
+      "font_class": "huoshan",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "15478853",
+      "name": "省略",
+      "font_class": "shenglve",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "17814591",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "19594586",
+      "name": "播放",
+      "font_class": "play",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "19985212",
+      "name": "首页-选中",
+      "font_class": "index-copy",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    }
+  ]
+}
