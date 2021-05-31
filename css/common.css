@@ -65,19 +65,41 @@ body{
     float: left;
 }
 .head .head-list .list-con ul{
-    border: solid 1px black;
     width: 200%;
     height: 100%;
 }
 .head .head-list .list-con ul li{
-    border: solid 1px red;
     float: left;
     padding: 0 0.22rem;
     line-height: 0.64rem;
-    font-size: 0.28rem;
+}
+.head .head-list .list-con ul li a{
+    font-size: 0.32rem;
+}
+.head .head-list .list-con .bingo a{
+    font-size: 0.36rem;
+    color: #c44944; 
+}
+.head .head-list .list-con ul:hover li a{
+    font-size: 0.32rem;
+    color: black; 
+}
+.head .head-list .list-con ul li a:hover{
+    font-size: 0.36rem;
+    color: #c44944; 
 }
 .head .head-list .list-icon{
+    width: 0.82rem;
+    height: 0.56rem;
+    border-left: solid 1px #f5f5f5;
+    margin: 0.08rem 0;
+    padding-left: 0.18rem ;
+    padding-top: 0.08rem;
     float: left;
+    box-shadow: -8px 0 8px -6px #f5f5f5;
+}
+.head .head-list .list-icon i{
+    font-size: 0.32rem;
 }
 /* container */
 .container{
